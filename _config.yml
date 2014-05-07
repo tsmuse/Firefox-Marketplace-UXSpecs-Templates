@@ -1,0 +1,11 @@
+# Site settings
+name: Templates Test Site
+title: UX Spec Templates Test Site
+email: tsmuse@mozilla.com
+description: "A testbed and example for the UX Spec templates running on Jekyll"
+baseurl: "/Firefox-Marketplace-UXSpecs-Templates"
+url: "https://tsmuse.github.io"
+
+# Build settings
+markdown: kramdown
+permalinks: pretty
