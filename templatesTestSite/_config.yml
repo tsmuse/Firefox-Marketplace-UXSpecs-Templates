@@ -1,10 +1,10 @@
 # Site settings
-name: Dat site title tho
-title: Your awesome title
-email: your-email@domain.com
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
-baseurl: ""
-url: "http://yourdomain.com"
+name: UX Templates Test Site
+title: UX Templates Test Site
+email: tsmuse@mozilla.com
+description: "Testbed for UX Spec Jekyll templates"
+baseurl: "/Firefox-Marketplace-UXSpecs-Templates/templatesTestSite"
+url: "https://tsmuse.github.io/Firefox-Marketplace-UXSpecs-Templates/templatesTestSite/"
 
 # Build settings
 markdown: kramdown
