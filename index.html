@@ -1,20 +1,16 @@
 ---
-layout: default
+layout: MarketplaceUXSpec
+multipage: false
 ---
-
-<div class="home">
-
-  <h1>Posts</h1>
-
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
-</div>
+<div class="jumbotron">
+	<div class="container">
+		<h1>Firefox Marketplace UX Spec Templates</h1>
+		<p>This is the demo site for the Marketplace UX design specs tempaltes. There is much randomly generated content in these pages, do explore. #tharBeDragons</p>
+		<!-- Pagination. If you have more than one page, set the multipage variable in the Frontmatter to true. Editing the pagination code happens in /_includes/homePagination.html. 
+		NOTE: This is currently broken in the Jekyll ver of this template.
+		-->
+		{% if page.multipage %}
+			{% include homePagination.html %}
+		{% endif %}
+	</div>
+</div>	
