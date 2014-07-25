@@ -1,7 +1,7 @@
 # Firefox Marketplace UX Spec Templates
 
 ##tl;dr
-HTML (and eventually Jekyll) templates for design specs for design projects for the Firefox Marketplace
+HTML(master branch) and Jekyll(gh-pages branch) templates for design specs for design projects for the Firefox Marketplace. You can see a demo at http://tsmuse.github.io/Firefox-Marketplace-UXSpecs-Templates/
 
 ## Description
 A series of template files used to construct design specs that live as GitHub projects for the Firefox Marketplace project. This repo is the blank templates, please don't make pull requests to add your project to this repo. However, please do make pull requests to add new templates, bug fixes, etc that will make future design specs more awesome-er.
@@ -15,6 +15,10 @@ The template for your project's title page.
 
 ### templateLongTextOneCol.html
 A template for a text only/long-form text page, with the text arranged in a single column.
+
+### templateLongTextOneColOneImg.html
+A template for a long-form text page, with the text arranged in a single column to the left and a single image to the right.
+
 
 ### templateLongTextTwoCol.html
 A template for a text only/long-form text page, with the text arranged in two columns.
