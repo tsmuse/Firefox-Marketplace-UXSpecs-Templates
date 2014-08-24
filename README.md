@@ -7,7 +7,8 @@ Jekyll templates for design specs for design projects for the Firefox Marketplac
 A series of template files used to construct design specs that live as GitHub projects for the Firefox Marketplace project. This repo is the blank templates, please don't make pull requests to add your project to this repo. However, please do make pull requests to add new templates, bug fixes, etc that will make future design specs more awesome-er.
 
 ## How to use
-Copy, update and link together pages as needed for your project. IT'S JUST THAT EASY!!!! :D
+Copy, update and link together pages as needed for your project. IT'S JUST THAT EASY!!!! :D IMPORTANT NOTE: You need to update the _config.yml file with your project's details. If you don't update the baseurl and url properties the links to the CSS and JS won't work and your site will appear broken.
+
 ## Template descriptions
 
 ### templateHome.html
