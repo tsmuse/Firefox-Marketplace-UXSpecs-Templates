@@ -9,6 +9,8 @@ A series of template files used to construct design specs that live as GitHub pr
 ## How to use
 Copy, update and link together pages as needed for your project. IT'S JUST THAT EASY!!!! :D IMPORTANT NOTE: You need to update the _config.yml file with your project's details. If you don't update the baseurl and url properties the links to the CSS and JS won't work and your site will appear broken.
 
+## Preview the templates
+You can see the templates in acton at [https://tsmuse.github.io/Firefox-Marketplace-UXSpecs-Templates/]
 ## Template descriptions
 
 ### templateHome.html
